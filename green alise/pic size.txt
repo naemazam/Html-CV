@@ -1,0 +1,5 @@
+logo (100*30)  pix
+
+linkedin 500*500 pix
+
+propic (200*200) pix

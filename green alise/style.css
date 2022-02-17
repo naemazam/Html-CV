@@ -1,0 +1,168 @@
+html, body { background: #777; padding: 20px 0; }	
+h5 { font-weight: bold; }
+
+		#resume-container {  
+			background: rgba(255,255,255,1); 
+			color: black !important;
+			opacity: 1 !important; 
+			margin-bottom: 40px; 
+			padding-bottom: 20px;  
+			border-radius: 7px; 
+		}
+		
+		#resume-container a { color: black; text-decoration: underline; }
+		
+		#resume-container hr { border-bottom: 2px solid black; }
+		
+		#resume-container header { 
+			background: #4caf7c; 
+			padding: 40px 0 20px; 
+			position: relative;
+			z-index: 1;
+			border-top-left-radius: 7px; 
+			border-top-right-radius: 7px; 
+		}
+		
+		
+		#resume-container header:after {
+			background: inherit;
+			content: '';
+			display: block;
+			height: 50%;
+			left: 0;
+			position: absolute;
+			right: 0;
+			z-index: -1;
+			-webkit-backface-visibility: hidden;
+		}
+		
+		
+		#resume-container header:after {
+		  bottom: 0;
+		  -webkit-transform: skewY(-2.5deg);
+				  transform: skewY(-2.5deg);
+		  -webkit-transform-origin: 100%;
+				  transform-origin: 100%;
+		}
+
+		#resume-container header .resume-portfolio-pic { border-radius: 50%; height: 200px; width: 200px; margin: 0 auto; display: block; }
+
+		.resume-name { text-align: center; color: white; padding-top: 50px; }
+		
+		#resume-container .contact-info { text-align: center; padding: 10px 0; margin: 20px 0; color: white; }
+		#resume-container .contact-info a  { color: white; }
+		
+		
+		#resume-container #summary { padding: 50px 10px 0; }
+		#resume-container #summary .summary { padding: 0 20px; }
+		
+		#resume-container .skill-text { text-align: center; }
+		
+		#resume-container .contact-info .email, #resume-container .contact-info .phone { margin-bottom: 20px; }
+		
+		
+		#experience { padding: 0 20px; }
+		
+		#experience h2, #experience h3, #experience h4 { margin: 0 !important; }
+	
+		#experience .past-employer { padding: 20px 0; }
+		#experience .employer-img { display: block; margin: 0 auto; padding-top: 20px; }
+		#experience .short-description { /* padding-top: 20px; */ }
+		
+		
+		#education { padding: 0 20px; }
+		
+		#education .past-school { padding: 20px 0; }
+		
+		#education .past-school .left { text-align: center; }
+		
+		#computers { padding: 0 20px; }
+		
+		
+		#resume-container .pills { padding-left: 0; }
+		#resume-container .pills a { color: black; }
+		#resume-container .pills li { 
+			box-shadow: 0px 1px 1px #CCC;
+			transition: all 0.07s ease 0s;
+			display: inline-block;
+			border: 0px none;
+			margin: 0px 5px 5px 0px;
+			padding: 0px;
+			font-size: 13px;
+			line-height: 17px;
+			color: black;
+			font-weight: normal;
+			background: #F1F1F1 none repeat scroll 0% 0%;
+			border-radius: 2px;
+			text-decoration: none;
+		}
+		#resume-container .pills li .wrap {
+			display: inline-block;
+			padding: 5px 10px 4px;
+		}
+		
+		#references { padding: 0 20px; margin: 20px 0; text-align: center; }
+		
+		
+		
+		#resume-container .linkedin-link { margin-bottom: 10px; }
+		#resume-container .linkedin-link span { display: block; color: black; text-align: center; }
+		
+		
+
+
+
+
+/*~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+	~~~~~MEDIA QUERIES~~~~
+	~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~*/
+	@media only screen and ( min-width: 1100px ) and ( max-width: 1405px) {
+		
+	}
+	
+	@media only screen and ( min-width: 992px ) {
+		#experience .col-md-7 { border-left: 2px solid black; }
+		#education .col-md-8 { border-left: 2px solid black; }
+	}
+	
+	
+	@media only screen and (max-width: 1200px) {
+		
+	}
+	
+	
+	@media only screen and (max-width: 990px) {
+	
+		.past-employer { border-bottom: 1px solid #dedede; margin-bottom: 20px; }
+		.past-employer:last-child { border-bottom: none; margin-bottom: 0; }
+		
+		.past-school { border-bottom: 1px solid #dedede; }
+		.past-school:last-child { border-bottom: none !important; }
+		
+		#references .col-md-4 { margin-bottom: 20px; }
+		
+		#experience .employer-img { padding-top: 0; max-width: 200px; }
+		
+		
+	}
+	
+	@media only screen and (max-width: 960px) {
+		
+	}
+	
+	@media only screen and ( max-width: 768px ) {
+		
+	}
+		
+	@media only screen and (max-width: 665px) {
+		.specializations ul { padding-left: 0; }
+		.skill-text { margin-bottom: 0; }
+	}
+		
+	@media only screen and (max-width: 567px) {
+		#computers ul { padding-left: 10px; }
+	}
+	
+	@media only screen and (max-width: 420px) {
+		#extra-skills { display: none; }
+	}
