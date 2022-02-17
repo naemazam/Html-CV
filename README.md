@@ -20,3 +20,10 @@ CV Baba is a open-Source Portfolio and CV template Resource Hub. Don't Pay money
 
 [View Demo](https://naemazam.github.io/Html-CV/Page-Crack/index.html)
 
+
+# [Dev CV](https://naemazam.github.io/Html-CV/devCV/index.html)
+
+![](./devCV/devcv.PNG)
+
+[View Demo](https://naemazam.github.io/Html-CV/PdevCV/index.html)
+
